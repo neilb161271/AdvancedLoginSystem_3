@@ -72,5 +72,11 @@ namespace AdvancedLoginSystem
         {
 
         }
+
+        private void AddCustCartoolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CustomerCarDetails customerCarDetails = new CustomerCarDetails();
+            customerCarDetails.Show();
+        }
     }
 }

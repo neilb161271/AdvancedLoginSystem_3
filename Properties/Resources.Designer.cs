@@ -93,10 +93,50 @@ namespace AdvancedLoginSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bin {
+            get {
+                object obj = ResourceManager.GetObject("bin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap black_white_glow_gradient_hexagon_green_1920x1080_c4_000000_ffffff_556b2f_000000_l2_2_35_a_30_f_6 {
             get {
                 object obj = ResourceManager.GetObject("black-white-glow-gradient-hexagon-green-1920x1080-c4-000000-ffffff-556b2f-000000-" +
                         "l2-2-35-a-30-f-6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CaIImage1 {
+            get {
+                object obj = ResourceManager.GetObject("CaIImage1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap close_icon_png {
+            get {
+                object obj = ResourceManager.GetObject("close-icon-png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Ford_Focus_RS__6_ {
+            get {
+                object obj = ResourceManager.GetObject("Ford_Focus_RS_(6)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -167,6 +207,26 @@ namespace AdvancedLoginSystem.Properties {
         internal static System.Drawing.Bitmap mysettingsbutton {
             get {
                 object obj = ResourceManager.GetObject("mysettingsbutton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap save {
+            get {
+                object obj = ResourceManager.GetObject("save", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap save_filedownload_icon {
+            get {
+                object obj = ResourceManager.GetObject("save-filedownload-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

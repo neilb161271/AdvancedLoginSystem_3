@@ -49,6 +49,7 @@
             this.addCustomerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addCustomerToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.searchCustomerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addCustomerCarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -56,6 +57,7 @@
             this.AdminSettBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.UserNameLbl = new System.Windows.Forms.Label();
+            this.AddCustCartoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -83,7 +85,7 @@
             this.userManagementToolStripMenuItem});
             this.masterToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.masterToolStripMenuItem.Name = "masterToolStripMenuItem";
-            this.masterToolStripMenuItem.Size = new System.Drawing.Size(124, 44);
+            this.masterToolStripMenuItem.Size = new System.Drawing.Size(124, 42);
             this.masterToolStripMenuItem.Text = "Master";
             // 
             // userRegistrationToolStripMenuItem
@@ -111,7 +113,7 @@
             // 
             this.logOutToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
-            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(138, 44);
+            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(138, 42);
             this.logOutToolStripMenuItem.Text = "Log Out";
             this.logOutToolStripMenuItem.Click += new System.EventHandler(this.LogOutToolStripMenuItem_Click);
             // 
@@ -121,10 +123,11 @@
             this.addJobToTheSystemToolStripMenuItem,
             this.addEstimateToTheSystemToolStripMenuItem,
             this.deleteJobFromTheSystemToolStripMenuItem,
-            this.finishJobToolStripMenuItem});
+            this.finishJobToolStripMenuItem,
+            this.AddCustCartoolStripMenuItem});
             this.jobsToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.jobsToolStripMenuItem.Name = "jobsToolStripMenuItem";
-            this.jobsToolStripMenuItem.Size = new System.Drawing.Size(91, 44);
+            this.jobsToolStripMenuItem.Size = new System.Drawing.Size(91, 42);
             this.jobsToolStripMenuItem.Text = "Jobs";
             // 
             // addJobToTheSystemToolStripMenuItem
@@ -159,7 +162,7 @@
             this.holidaysToolStripMenuItem});
             this.timeKeepingToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.timeKeepingToolStripMenuItem.Name = "timeKeepingToolStripMenuItem";
-            this.timeKeepingToolStripMenuItem.Size = new System.Drawing.Size(216, 44);
+            this.timeKeepingToolStripMenuItem.Size = new System.Drawing.Size(216, 42);
             this.timeKeepingToolStripMenuItem.Text = "Time-Keeping";
             // 
             // whoisInToolStripMenuItem
@@ -206,24 +209,31 @@
             // 
             this.addCustomerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addCustomerToolStripMenuItem1,
-            this.searchCustomerToolStripMenuItem});
+            this.searchCustomerToolStripMenuItem,
+            this.addCustomerCarToolStripMenuItem});
             this.addCustomerToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.addCustomerToolStripMenuItem.Name = "addCustomerToolStripMenuItem";
-            this.addCustomerToolStripMenuItem.Size = new System.Drawing.Size(159, 44);
+            this.addCustomerToolStripMenuItem.Size = new System.Drawing.Size(159, 42);
             this.addCustomerToolStripMenuItem.Text = "Customer";
             // 
             // addCustomerToolStripMenuItem1
             // 
             this.addCustomerToolStripMenuItem1.Name = "addCustomerToolStripMenuItem1";
-            this.addCustomerToolStripMenuItem1.Size = new System.Drawing.Size(345, 46);
+            this.addCustomerToolStripMenuItem1.Size = new System.Drawing.Size(363, 46);
             this.addCustomerToolStripMenuItem1.Text = "Add Customer";
             this.addCustomerToolStripMenuItem1.Click += new System.EventHandler(this.AddCustomerToolStripMenuItem1_Click);
             // 
             // searchCustomerToolStripMenuItem
             // 
             this.searchCustomerToolStripMenuItem.Name = "searchCustomerToolStripMenuItem";
-            this.searchCustomerToolStripMenuItem.Size = new System.Drawing.Size(345, 46);
+            this.searchCustomerToolStripMenuItem.Size = new System.Drawing.Size(363, 46);
             this.searchCustomerToolStripMenuItem.Text = "Search Customer";
+            // 
+            // addCustomerCarToolStripMenuItem
+            // 
+            this.addCustomerCarToolStripMenuItem.Name = "addCustomerCarToolStripMenuItem";
+            this.addCustomerCarToolStripMenuItem.Size = new System.Drawing.Size(363, 46);
+            this.addCustomerCarToolStripMenuItem.Text = "Add Customer Car";
             // 
             // button1
             // 
@@ -309,6 +319,13 @@
             this.UserNameLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.UserNameLbl.Click += new System.EventHandler(this.UserNameLbl_Load);
             // 
+            // AddCustCartoolStripMenuItem
+            // 
+            this.AddCustCartoolStripMenuItem.Name = "AddCustCartoolStripMenuItem";
+            this.AddCustCartoolStripMenuItem.Size = new System.Drawing.Size(492, 46);
+            this.AddCustCartoolStripMenuItem.Text = "Add Customer Car";
+            this.AddCustCartoolStripMenuItem.Click += new System.EventHandler(this.AddCustCartoolStripMenuItem_Click);
+            // 
             // frmAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -368,6 +385,8 @@
         private System.Windows.Forms.ToolStripMenuItem addCustomerToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem searchCustomerToolStripMenuItem;
         private System.Windows.Forms.Label UserNameLbl;
+        private System.Windows.Forms.ToolStripMenuItem addCustomerCarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem AddCustCartoolStripMenuItem;
     }
 
 }

@@ -67,6 +67,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerCarDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerCarDetails.Designer.cs">
+      <DependentUpon>CustomerCarDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataClasses.cs">
       <DependentUpon>DataClasses.dbml</DependentUpon>
     </Compile>
@@ -109,6 +115,11 @@
     </Compile>
     <Compile Include="AddCust.Designer.cs">
       <DependentUpon>AddCust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBLoginSystemDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBLoginSystemDataSet3.xsd</DependentUpon>
     </Compile>
     <Compile Include="frmAdmin.cs">
       <SubType>Form</SubType>
@@ -168,6 +179,9 @@
     </Compile>
     <EmbeddedResource Include="AddCust.resx">
       <DependentUpon>AddCust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerCarDetails.resx">
+      <DependentUpon>CustomerCarDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
@@ -258,6 +272,17 @@
     <None Include="DBLoginSystemDataSet21.xss">
       <DependentUpon>DBLoginSystemDataSet21.xsd</DependentUpon>
     </None>
+    <None Include="DBLoginSystemDataSet3.xsc">
+      <DependentUpon>DBLoginSystemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DBLoginSystemDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBLoginSystemDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBLoginSystemDataSet3.xss">
+      <DependentUpon>DBLoginSystemDataSet3.xsd</DependentUpon>
+    </None>
     <None Include="Properties\DataSources\AdvancedLoginSystem.DBLoginSystemDataSet2TableAdapters.PinTableTableAdapter.datasource" />
     <None Include="Properties\DataSources\AdvancedLoginSystem.DBLoginSystemDataSet2TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
     <None Include="Properties\DataSources\AdvancedLoginSystem.DBLoginSystemDataSet2TableAdapters.TableAdapterManager.datasource" />
@@ -278,9 +303,6 @@
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\DS-DIGIB.TTF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
     <None Include="Resources\jam1.png" />
   </ItemGroup>
   <ItemGroup>
@@ -325,6 +347,24 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CaIImage1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ford_Focus_RS_%286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-icon-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save-filedownload-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

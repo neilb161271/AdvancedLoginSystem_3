@@ -73,8 +73,6 @@ namespace AdvancedLoginSystem
         {
                 
             db.spRegister1(txtUserName.Text, txtPassword.Text, txtEmail.Text, Convert.ToInt32(cobRole.SelectedValue.ToString()), cobQuestion.Text, txtAnswer.Text, TextPinIn.Text, TxtFirstName.Text, TxtLastName.Text, ref result);
-            //db.spRegister(txtUserName.Text, txtPassword.Text, txtEmail.Text, Convert.ToInt32(cobRole.SelectedValue.ToString()), cobQuestion.Text, txtAnswer.Text, ref result);
-
         }
 
         private void Registration_Load(object sender, EventArgs e)

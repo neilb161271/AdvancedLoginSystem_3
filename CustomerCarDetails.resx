@@ -117,62 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="close-icon-png" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close-icon-png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="linear-yellow-red-gradient-1920x1080-c2-fd1807-fdf507-a-0-f-14" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\linear-yellow-red-gradient-1920x1080-c2-fd1807-fdf507-a-0-f-14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="jam1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\jam1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="loginbutton (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\loginbutton (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CaIImage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CaIImage1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mygraphbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mygraphbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="black-white-glow-gradient-hexagon-green-1920x1080-c4-000000-ffffff-556b2f-000000-l2-2-35-a-30-f-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\black-white-glow-gradient-hexagon-green-1920x1080-c4-000000-ffffff-556b2f-000000-l2-2-35-a-30-f-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="21-215199_download-calendar-png-clipart-calendar-icon-png-blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\21-215199_download-calendar-png-clipart-calendar-icon-png-blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mysettingsbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mysettingsbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Helpbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Helpbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="loginButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\loginButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ford_Focus_RS_(6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ford_Focus_RS_(6).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="21-215199_download-calendar-png-clipart-calendar-icon-png-blue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\21-215199_download-calendar-png-clipart-calendar-icon-png-blue1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="shutdown_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shutdown_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="shutdownbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shutdownbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="backgroundGrad2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\backgroundGrad2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="save-filedownload-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\save-filedownload-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  <metadata name="customersBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>827, 17</value>
+  </metadata>
+  <metadata name="dBLoginSystemDataSet3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>566, 17</value>
+  </metadata>
+  <metadata name="customersTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 65</value>
+  </metadata>
+  <metadata name="SaveCusCarFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>272, 49</value>
+  </metadata>
 </root>

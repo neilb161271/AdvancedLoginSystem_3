@@ -6,6 +6,10 @@ namespace AdvancedLoginSystem
 
     partial class DBLoginSearchJobDataSet1
     {
+        partial class customersDataTable
+        {
+        }
+
         partial class PinTableDataTable
         {
         }
@@ -14,6 +18,10 @@ namespace AdvancedLoginSystem
 
 namespace AdvancedLoginSystem.DBLoginSearchJobDataSet1TableAdapters
 {
+    partial class customersTableAdapter
+    {
+    }
+
     partial class UsersTableAdapterInsert
     {
     }
